@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-  <link rel="stylesheet" href="../assets/css/form_pendaftaran.css" />
+  <link rel="stylesheet" href="../assets/css/pendataan_alumni_form.css" />
 </head>
 
 <body>
@@ -14,7 +14,7 @@
     <div class="logo">SMK 1 Krian</div>
     <div class="navbar">
       <div class="item">
-        <a href="index.html">Beranda</a>
+        <a href="../index.php">Beranda</a>
         <a href="../visi-misi/index.php">Visi &amp; Misi</a>
       </div>
       <div class="login">
