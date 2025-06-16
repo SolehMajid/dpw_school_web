@@ -43,12 +43,12 @@
 
   <div class="tigablock">
     <div class="pengurus">
-      <a href="#">
+      <a href="../osis/index.php">
         <h3>PENGURUS</h3>
       </a>
     </div>
     <div class="kejuruan">
-      <a href="#">
+      <a href="../jurusan/index.php">
         <h3>KEJURUAN</h3>
       </a>
     </div>
