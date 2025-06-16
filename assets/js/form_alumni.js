@@ -34,7 +34,7 @@ document.getElementById("formData").addEventListener("submit", function (e) {
     localStorage.setItem("alumniData", JSON.stringify(existing));
 
     alert("Data alumni berhasil disimpan!");
-    window.location.href = "index.html";
+    window.location.href = "index.php";
   };
 
   if (foto) {
