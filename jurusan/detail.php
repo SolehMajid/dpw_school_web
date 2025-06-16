@@ -100,8 +100,8 @@ if (isset($_GET["id"])) {
     <p>Copyright 2025 SMK Krian 1</p>
     <div class="sosmed">
 
-      <a href="https://www.youtube.com/@Pokejul."><i class="youtube">Youtube</i></a>
-      <a href="https://www.instagram.com/izzulzulzul/"><i class="instagram">Instagram</i></a>
+      <a href="https://www.youtube.com/@SkarisaEntertainment"><i class="youtube">Youtube</i></a>
+      <a href="https://www.instagram.com/smkkrian1/"><i class="instagram">Instagram</i></a>
     </div>
   </footer>
 </body>

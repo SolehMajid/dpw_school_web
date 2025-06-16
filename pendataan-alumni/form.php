@@ -167,7 +167,7 @@
 
       <div class="footer-kanan">
         <div class="medsos">
-          <a href="#">
+          <a href="https://www.youtube.com/@SkarisaEntertainment">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -185,7 +185,7 @@
             </svg>
           </a>
 
-          <a href="#">
+          <a href="https://www.instagram.com/smkkrian1/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"

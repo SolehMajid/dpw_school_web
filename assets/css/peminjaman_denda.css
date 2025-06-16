@@ -71,6 +71,7 @@ nav a:hover {
 /* bagian isi utama */
 .container-peminjaman {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
 }
