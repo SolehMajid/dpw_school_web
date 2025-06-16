@@ -85,7 +85,7 @@
   <!-- bagian footer -->
   <div class="footer">
     <nav class="nav-footer">
-      <a href="#">BERANDA</a>
+      <a href="../index.php">BERANDA</a>
       <a href="#">TENTANG KAMI</a>
       <div class="social">
         <span>IKUTI KAMI JUGA DI</span>
