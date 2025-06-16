@@ -42,33 +42,40 @@
         <div class="peminjaman">
           <fieldset>
             <legend>PEMINJAMAN BUKU</legend>
-
             <div class="form-group">
               <label for="judulbuku">Judul Buku:</label>
-              <input type="text" name="judulbuku" id="judulbuku">
+              <input type="text" id="judulBuku" />
             </div>
 
             <div class="form-group">
               <label for="peminjam">Peminjam:</label>
-              <input type="text" name="peminjam" id="peminjam">
+              <input type="text" id="peminjam" />
             </div>
 
             <div class="form-group">
               <label for="tanggal">Tanggal Pinjam:</label>
-              <input type="date" name="tanggal" id="tanggal">
+              <input type="date" id="tanggal" />
             </div>
 
-            <button>Pinjam</button>
+            <button onclick="pinjamBuku()">Pinjam</button>
           </fieldset>
         </div>
 
-        <div class="histori-peminjaman">
-          <fieldset>
-            <legend>PEMINJAMAN AKTIF</legend>
-            <label>Judul Buku</label>
-            <label>Peminjam</label>
-            <label>Tanggal Pinjam</label>
-            <label>Denda</label>
+        <div class="peminjaman">
+          <fieldset class="histori-peminjaman">
+            <legend>Riwayat Peminjaman</legend>
+            <table id="histori-peminjaman">
+              <thead>
+                <tr>
+                  <th>Judul Buku</th>
+                  <th>Peminjam</th>
+                  <th>Tanggal Pinjam</th>
+                  <th>Denda</th>
+                  <th>Aksi</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
           </fieldset>
         </div>
       </div>
@@ -78,15 +85,19 @@
   <!-- bagian footer -->
   <div class="footer">
     <nav class="nav-footer">
-      <a href="../index.php">BERANDA</a>
+      <a href="#">BERANDA</a>
       <a href="#">TENTANG KAMI</a>
       <div class="social">
         <span>IKUTI KAMI JUGA DI</span>
-        <a href="https://www.youtube.com/@smkkrian1sidoarjo340" target="_blank"><img src="../assets/images/perpustakaan/gambar/logo youtube.png" alt="YouTube" /></a>
+        <a
+          href="https://www.youtube.com/@smkkrian1sidoarjo340"
+          target="_blank"><img src="../assets/images/perpustakaan/gambar/logo youtube.png" alt="YouTube" /></a>
         <a href="https://www.instagram.com/smkkrian1/" target="_blank"><img src="../assets/images/perpustakaan/gambar/logo ig.png" alt="Instagram" /></a>
       </div>
     </nav>
   </div>
+
+  <script src="../assets/js/peminjaman_denda.js"></script>
 </body>
 
 </html>

@@ -1,3 +1,7 @@
+body {
+  background-image: url(https://cdn.pixabay.com/animation/2024/11/17/09/57/09-57-26-102_512.gif);
+  background-size: 100%;
+}
 nav {
   display: flex;
   justify-content: space-between;

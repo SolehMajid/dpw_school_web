@@ -24,6 +24,19 @@ if (isset($_GET["id"])) {
   <link rel="stylesheet" href="../assets/css/daftar_jurusan.css">
 
   <style>
+    body,
+    h1,
+    h2,
+    h3,
+    p,
+    .p,
+    .kotak p {
+      font-family: Arial, sans-serif !important;
+      text-transform: none !important;
+      font-variant: normal !important;
+      color: black !important;
+    }
+
     main {
       margin: 0 10rem;
       padding: 1rem 0;
@@ -60,8 +73,8 @@ if (isset($_GET["id"])) {
     </div>
     <div class="header-kanan">
       <ul>
-        <li><a href="beranda.html">Beranda</a></li>
-        <li><a href="visi&misi.html">Visi & Misi</a></li>
+        <li><a href="../index.php">Beranda</a></li>
+        <li><a href="../visi-misi/index.php">Visi & Misi</a></li>
       </ul>
     </div>
   </header>

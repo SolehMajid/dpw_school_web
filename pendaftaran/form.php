@@ -20,69 +20,81 @@
     </div>
   </nav>
 
-  <!-- Main content -->
   <form action="">
     <main>
       <div class="mainright">
         <h1>PENDAFTARAN</h1>
 
-        <!-- table input  -->
         <div class="inputdata">
           <div class="nama">
-            <p><label for="">NAMA LENGKAP</label></p>
-            <input type="text" />
+            <p><label for="nama">NAMA LENGKAP</label></p>
+            <input type="text" id="nama" name="nama" />
           </div>
 
           <div class="alamat">
-            <p><label for="">ALAMAT</label></p>
-            <input type="text" />
+            <p><label for="alamat">ALAMAT</label></p>
+            <input type="text" id="alamat" name="alamat" />
           </div>
 
           <div class="lahir">
-            <p><label for="">TANGGAL LAHIR</label></p>
-            <input type="date" />
+            <p><label for="tgl_lahir">TANGGAL LAHIR</label></p>
+            <input type="date" id="tgl_lahir" name="tgl_lahir" />
           </div>
 
           <div class="kelamin">
-            <p><label for="">JENIS KELAMIN</label></p>
-            <input type="text" />
+            <p><label for="kelamin">JENIS KELAMIN</label></p>
+            <select name="kelamin" id="kelamin">
+              <option value="">-- JENIS KELAMIN --</option>
+              <option value="LAKI-LAKI">LAKI-LAKI</option>
+              <option value="PEREMPUAN">PEREMPUAN</option>
+            </select>
           </div>
 
           <div class="agama">
-            <p><label for="">AGAMA</label></p>
-            <input type="text" />
+            <p><label for="agama">AGAMA</label></p>
+            <select name="agama" id="agama">
+              <option value="">-- AGAMA --</option>
+              <option value="ISLAM">ISLAM</option>
+              <option value="KRISTEN">KRISTEN</option>
+              <option value="KATOLIK">KATOLIK</option>
+              <option value="HINDU">HINDU</option>
+            </select>
           </div>
 
           <div class="ayah">
-            <p><label for="">NAMA AYAH</label></p>
-            <input type="text" />
+            <p><label for="nama_ayah">NAMA AYAH</label></p>
+            <input type="text" id="nama_ayah" name="nama_ayah" />
           </div>
 
           <div class="ibu">
-            <p><label for="">NAMA IBU</label></p>
-            <input type="text" />
+            <p><label for="nama_ibu">NAMA IBU</label></p>
+            <input type="text" id="nama_ibu" name="nama_ibu" />
           </div>
 
           <div class="telp">
-            <p><label for="">NO TELP/HP</label></p>
-            <input type="number" />
+            <p><label for="telp">NO TELP/HP</label></p>
+            <input type="tel" id="telp" name="telp" />
           </div>
 
           <div class="foto">
-            <p><label for="">FOTO 3X3</label></p>
-            <img src="../assets/images/pendaftaran/profil.jpg" alt="" />
-            <input type="file" />
+            <p><label for="foto">FOTO 3X3</label></p>
+            <img src="../assets/images/pendaftaran/profil.jpg" alt="Foto profil" />
+            <input type="file" id="foto" name="foto" required />
           </div>
         </div>
-        <!-- gambar anak smanya  -->
       </div>
+
       <div class="gambar">
-        <img src="../assets/images/pendaftaran/manusia.jpg" alt="" />
+        <img src="../assets/images/pendaftaran/pendaftaran/manusia.jpg" alt="" />
       </div>
     </main>
+
+    <div class="warning">
+      <p>PASTIKAN DATA SESUAI SEBELUM KONFIRMASI !!</p>
+    </div>
+
     <div class="buttons">
-      <h2><button>EDIT</button></h2>
-      <h2><button>KONFIRMASI</button></h2>
+      <h2><button type="submit">KONFIRMASI</button></h2>
     </div>
   </form>
 </body>

@@ -1,3 +1,7 @@
+body {
+  background-image: url(https://cdn.pixabay.com/animation/2024/11/17/09/57/09-57-26-102_512.gif);
+  background-size: 100%;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -39,9 +43,9 @@ main {
 
 main .img-main img {
   border: solid black 2px;
-  border-radius: 50%;
-  width: 30%;
-  height: auto;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
 }
 
 .last-data table tr th {
