@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
   <link rel="stylesheet" href="../assets/css/form_pendaftaran.css" />
+  <script src="../assets/js/mengisi_data.js" defer></script>
 </head>
 
 <body>
@@ -20,7 +21,7 @@
     </div>
   </nav>
 
-  <form action="">
+  <form action="konfirmasi_data.php">
     <main>
       <div class="mainright">
         <h1>PENDAFTARAN</h1>
