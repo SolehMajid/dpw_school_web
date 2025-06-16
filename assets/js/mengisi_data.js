@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
         };
 
         localStorage.setItem("pendaftaran", JSON.stringify(data));
-        window.location.href = "3.Konfirmasi Data.html";
+        window.location.href = "konfirmasi_data.php";
       };
 
       reader.readAsDataURL(file);
