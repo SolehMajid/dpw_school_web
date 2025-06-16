@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-  <link rel="stylesheet" href="../assets/css/pendataan_alumni_form.css" />
+  <link rel="stylesheet" href="../assets/css/form_pendaftaran.css" />
 </head>
 
 <body>
@@ -14,7 +14,7 @@
     <div class="logo">SMK 1 Krian</div>
     <div class="navbar">
       <div class="item">
-        <a href="../index.php">Beranda</a>
+        <a href="index.html">Beranda</a>
         <a href="../visi-misi/index.php">Visi &amp; Misi</a>
       </div>
       <div class="login">
@@ -34,7 +34,7 @@
       <div class="label-pendataan">Pendataan</div>
 
       <div class="form-pendataan">
-        <form action="#" method="post">
+        <form id="form-data" action="daftar alumni/daftar_alumni.html" method="post">
           <div class="isi-form">
             <label for="nama">Nama Lengkap</label>
             <input type="text" name="nama" id="nama" required />
@@ -70,7 +70,8 @@
                   type="radio"
                   name="jurusan"
                   id="instalasi-listrik"
-                  value="instalasi-listrik" />
+                  value="instalasi-listrik"
+                  required />
                 Teknik Instalasi Tenaga Listrik
               </label>
 
@@ -79,12 +80,13 @@
                   type="radio"
                   name="jurusan"
                   id="permesinan"
-                  value="permesinan" />
+                  value="permesinan"
+                  required />
                 Teknik Permesinan
               </label>
 
               <label for="rpl">
-                <input type="radio" name="jurusan" id="rpl" value="rpl" />
+                <input type="radio" name="jurusan" id="rpl" value="rpl" required />
                 Rekayasa Perangkat Lunak
               </label>
 
@@ -93,7 +95,8 @@
                   type="radio"
                   name="jurusan"
                   id="logistik"
-                  value="logistik" />
+                  value="logistik"
+                  required />
                 Teknik Logistik
               </label>
 
@@ -102,7 +105,8 @@
                   type="radio"
                   name="jurusan"
                   id="pengelasan"
-                  value="pengelasan" />
+                  value="pengelasan"
+                  required />
                 Teknik Pengelasan
               </label>
             </div>
@@ -117,7 +121,7 @@
             <label>Kegitan Terakhir</label>
             <div class="radio">
               <label for="kerja">
-                <input type="radio" name="kerja" id="kerja" value="kerja" />
+                <input type="radio" name="kegiatan" id="kerja" value="kerja" />
                 Kerja
               </label>
 
@@ -148,7 +152,7 @@
 
           <div class="isi-form">
             <label for="foto">Masukkan Foto</label>
-            <input type="file" name="foto" id="foto" />
+            <input type="file" name="foto" id="foto" required />
           </div>
 
           <button type="submit" class="submit">Submit Form</button>
@@ -167,7 +171,7 @@
 
       <div class="footer-kanan">
         <div class="medsos">
-          <a href="https://www.youtube.com/@SkarisaEntertainment">
+          <a href="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -185,7 +189,7 @@
             </svg>
           </a>
 
-          <a href="https://www.instagram.com/smkkrian1/">
+          <a href="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -214,6 +218,8 @@
       <p>Copyright 2025 SMK 1 Krian</p>
     </div>
   </div>
+
+  <script src="../assets/js/form_alumni.js"></script>
 </body>
 
 </html>

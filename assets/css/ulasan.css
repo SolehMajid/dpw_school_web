@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+/* header_navbar */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2196f3;
+  color: white;
+  padding: 20px 40px;
+  border-bottom: black 2px solid;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.item a {
+  text-decoration: none;
+  color: white;
+}
+
+.item {
+  font-size: 17px;
+  display: flex;
+  gap: 20px;
+}
+
+.login {
+  background-color: #0a6ebd;
+  padding: 5px 10px;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+.login a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+/* container */
+
+.container {
+  padding: 40px;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 360px;
+  background-color: #bbfbff;
+  border: solid black 1px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.judul {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-ulasan {
+  background-color: #bdf6ff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-ulasan h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 15px 0;
+}
+
+.rating span {
+  transition: 0.2s;
+}
+
+.rating span.selected {
+  color: gold;
+}
+
+.isi-form {
+  margin-bottom: 15px;
+}
+
+.isi-form input,
+.isi-form textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.submit {
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: royalblue;
+}
+
+/* footer */
+
+.footer {
+  background: #2196f3;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  border-bottom: solid black 2px;
+}
+
+.footer-kiri h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.medsos {
+  display: flex;
+  gap: 10px;
+}
+
+.medsos svg {
+  width: 50px;
+  height: 50px;
+  color: black;
+}
+
+.footer-bawah {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+}
