@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tentang Kami</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navigasi Atas */
+    .navigasi {
+      background-color: #3498db;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      color: white;
+      border-bottom: solid black;
+    }
+
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .menu {
+      display: flex;
+      gap: 20px;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .menu a:hover {
+      text-decoration: underline;
+    }
+
+    .kepala {
+      background-color: #3498db;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    .judul {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .keterangan {
+      margin-top: 5px;
+    }
+
+    .kontainer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .kartu {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 200px;
+      text-align: center;
+      padding: 15px;
+      text-decoration: none;
+      color: black;
+      transition: transform 0.2s ease;
+    }
+
+    .kartu:hover {
+      transform: scale(1.05);
+    }
+
+    .foto {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .nama {
+      font-size: 1.2em;
+      margin: 10px 0 5px;
+    }
+
+    .peran {
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+
+  <div class="navigasi">
+    <div class="logo">SMK KRIAN 1</div>
+    <div class="menu">
+      <a href="#">Beranda</a>
+      <a href="#">Visi Misi</a>
+    </div>
+  </div>
+
+
+  <div class="kepala">
+    <h1 class="judul">Tentang Kami</h1>
+    <p class="keterangan">Kelompok 6</p>
+  </div>
+
+
+  <div class="kontainer">
+    <a class="kartu" href="#">
+      <img src="assets/images/profil.jpg" class="foto" alt="Anggota 1">
+      <div class="nama">Anggota 1</div>
+      <div class="peran">Ketua</div>
+    </a>
+    <a class="kartu" href="#">
+      <img src="assets/images/profil.jpg" class="foto" alt="Anggota 2">
+      <div class="nama">Anggota 2</div>
+      <div class="peran">Alumni</div>
+    </a>
+    <a class="kartu" href="#">
+      <img src="assets/images/profil.jpg" class="foto" alt="Anggota 3">
+      <div class="nama">Anggota 3</div>
+      <div class="peran">jurusan</div>
+    </a>
+    <a class="kartu" href="#">
+      <img src="assets/images/profil.jpg" class="foto" alt="Anggota 4">
+      <div class="nama">Anggota 4</div>
+      <div class="peran">Perpustakaan</div>
+    </a>
+    <a class="kartu" href="#">
+      <img src="assets/images/profil.jpg" class="foto" alt="Anggota 5">
+      <div class="nama">Anggota 5</div>
+      <div class="peran">Osis</div>
+    </a>
+    <a class="kartu" href="#">
+      <img src="assets/images/profil.jpg" class="foto" alt="Anggota 6">
+      <div class="nama">Anggota 6</div>
+      <div class="peran">Beranda</div>
+    </a>
+  </div>
+
+</body>
+</html>
